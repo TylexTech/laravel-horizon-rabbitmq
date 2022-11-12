@@ -1,0 +1,22 @@
+{
+    "name": "tylextech/laravel-horizon-rabbitmq",
+    "description": "This package starts worker for rabbitmq with more better stability",
+    "type": "project",
+    "require": {
+        "laravel/horizon": "6.x-dev",
+        "vladimir-yuldashev/laravel-queue-rabbitmq": "13.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tylextech\\LaravelHorizonRabbitmq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Tayyab",
+            "email": "m.tayyab9736@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
