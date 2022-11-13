@@ -3,8 +3,9 @@
     "description": "This package starts worker for rabbitmq with more better stability",
     "type": "project",
     "require": {
-        "laravel/horizon": "6.x-dev",
-        "vladimir-yuldashev/laravel-queue-rabbitmq": "13.0.x-dev"
+        "php": "^7.3|^8.0",
+        "laravel/horizon": "^5.10",
+        "vladimir-yuldashev/laravel-queue-rabbitmq": "^13.0"
     },
     "license": "MIT",
     "autoload": {
@@ -18,5 +19,11 @@
             "email": "m.tayyab9736@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
