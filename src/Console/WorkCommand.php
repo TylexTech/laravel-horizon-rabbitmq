@@ -37,13 +37,6 @@ class WorkCommand extends ConsumeCommand
                             ';
 
     /**
-     * Indicates whether the command should be shown in the Artisan command list.
-     *
-     * @var bool
-     */
-    protected $hidden = true;
-
-    /**
      * Execute the console command.
      *
      * @return void

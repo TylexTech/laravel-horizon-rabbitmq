@@ -5,7 +5,8 @@
     "require": {
         "php": "^7.3|^8.0",
         "laravel/horizon": "^5.10",
-        "vladimir-yuldashev/laravel-queue-rabbitmq": "^13.0"
+        "vladimir-yuldashev/laravel-queue-rabbitmq": "^13.0",
+        "illuminate/queue": "^9.40"
     },
     "license": "MIT",
     "autoload": {

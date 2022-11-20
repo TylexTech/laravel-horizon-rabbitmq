@@ -3,7 +3,6 @@
 namespace Tylextech\LaravelHorizonRabbitmq;
 
 use Illuminate\Support\ServiceProvider;
-use Tylextech\LaravelHorizonRabbitmq\Console\WorkCommand;
 
 class LaravelHorizonRabbitmqServiceProvider extends ServiceProvider
 {
@@ -27,7 +26,7 @@ class LaravelHorizonRabbitmqServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                WorkCommand::class
+                Console\WorkCommand::class
             ]);
         }
     }

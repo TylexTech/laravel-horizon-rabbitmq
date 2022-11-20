@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f43527258a6e2187ed538f8422783855",
+    "content-hash": "f00c3c71fbc9ddfb285c1be769cb405e",
     "packages": [
         {
             "name": "brick/math",
@@ -749,16 +749,16 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v9.39.0",
+            "version": "v9.40.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
-                "reference": "15845914a496ed411296a379665e82b144ff7243"
+                "reference": "91df9cb3bc85b3f1a88f6e9ad59fc76511a723d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/queue/zipball/15845914a496ed411296a379665e82b144ff7243",
-                "reference": "15845914a496ed411296a379665e82b144ff7243",
+                "url": "https://api.github.com/repos/illuminate/queue/zipball/91df9cb3bc85b3f1a88f6e9ad59fc76511a723d6",
+                "reference": "91df9cb3bc85b3f1a88f6e9ad59fc76511a723d6",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +810,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-11-07T14:45:04+00:00"
+            "time": "2022-11-14T13:12:40+00:00"
         },
         {
             "name": "illuminate/support",
